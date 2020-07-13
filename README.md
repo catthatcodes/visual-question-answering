@@ -20,10 +20,10 @@ Question answering (QA) is a computer science discipline within the fields of in
 
 ## Tools and Frameworks Used
 
-Data Set: 
+### Data Set: 
   1. easy-vqa - Easy Visual Questions Answering dataset
   
-Model Development:
+### Model Development:
   1. TensorFlow – Deep Learning Library
   
   2. Keras – Deep Learning Library
@@ -32,12 +32,12 @@ Model Development:
   
   4. Scikit-learn – Machine learning algorithms tools
 
-Development Environment:
+### Development Environment:
   1. PyCharm IDE – Python program development environment
 
   2. Jupyter Notebooks – web application for interactive data science and scientific computing 
 
-Libraries Used:
+### Libraries Used:
   1. numpy
   
   2. keras
@@ -49,27 +49,21 @@ Libraries Used:
 
 The dataset consits of:
 
-1. train images = 4000
-
-2. test images = 1000
-
-3. train questions = 38575
-
-4. test questions = 9673
-
-5. possibles answers = 13
-
-6. training questions that are yes/no = 28407
-
-7. testing questions that are yes/no = 7136
+    train images = 4000
+    test images = 1000
+    train questions = 38575
+    test questions = 9673
+    possibles answers = 13
+    training questions that are yes/no = 28407
+    testing questions that are yes/no = 7136
 
 
-Sample Images: 
+#### Sample Images: 
 
    <img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>
 
 
-Sample Questions:
+#### Sample Questions:
 
 1. "What shape is blue?"
 
@@ -78,7 +72,7 @@ Sample Questions:
 3. "What is the color of the triangle?"
 
 
-Possible Answers:
+#### Possible Answers:
 
 1. Yes/No: Yes, No
 
@@ -108,7 +102,7 @@ A Convolutional Neural Network(CNN) is used to extract information from the inpu
 
 ## Question Model
 
-   <<img src="https://victorzhou.com/media/vqa-post/feedforward.svg" width ="700" height ="250"/>
+   <img src="https://victorzhou.com/media/vqa-post/feedforward.svg" width ="700" height ="250"/>
 
 1. vectorize every question using Bag of Words approach(BOW).
 
@@ -122,6 +116,7 @@ Using element wise multiplication as available in the Merge layer in keras, the 
 1. Multiply Layer
 
 2. Softmax to turn output values into probabilities so each answer can be quantified.
+
 
 ## Result
 
@@ -141,5 +136,3 @@ Using element wise multiplication as available in the Merge layer in keras, the 
       loss: 0.1982 - accuracy: 0.9286 - val_loss: 0.2202 - val_accuracy: 0.9212
       Epoch 8/8
       loss: 0.1157 - accuracy: 0.9627 - val_loss: 0.1883 - val_accuracy: 0.9378
-      
-      

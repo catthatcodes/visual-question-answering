@@ -90,7 +90,9 @@ Possible Answers:
 ## Image Model
 
 A Convolutional Neural Network(CNN) is used to extract information from the input images. Since the dataset relatively lacks complexity, a simple model is designed as follows:
+
    <img src="https://victorzhou.com/media/vqa-post/cnn.svg" width ="700" height ="450"/>
+
 1. image size is set to 64x64
 
 2. Convolutional layer with eight 3x3 filters using "same" padding. Resultant volume is 64x64x8.
@@ -105,7 +107,9 @@ A Convolutional Neural Network(CNN) is used to extract information from the inpu
 
 
 ## Question Model
+
    <img src="https://victorzhou.com/media/vqa-post/feedforward.svg" width ="700" height ="250"/>
+
 1. vectorize every question using Bag of Words approach(BOW).
 
 2. Input the above feature vector to a standard neural network consisting of 2 fully connected layers.
@@ -118,3 +122,5 @@ Using element wise multiplication as available in the Merge layer in keras, the 
 1. Multiply Layer
 
 2. Softmax to turn output values into probabilities so each answer can be quantified.
+
+# Result

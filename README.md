@@ -66,7 +66,7 @@ The dataset consits of:
 
 Sample Images: 
 
-                  <img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>
+   <img src="https://victorzhou.com/media/vqa-post/examples.png" width ="300" height ="300"/>
 
 
 Sample Questions:

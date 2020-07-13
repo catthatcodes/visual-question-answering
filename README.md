@@ -48,10 +48,15 @@ Libraries Used:
 ## easy-vqa Dataset
 
 The dataset consits of:
+
 train images = 4000 | test images = 1000
+
 train questions = 38575 | test questions = 9673
+
 possibles answers = 13
+
 training questions that are yes/no = 28407 | testing questions that are yes/no = 7136
 
 Samples Images: 
+
 <img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>

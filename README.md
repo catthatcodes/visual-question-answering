@@ -49,24 +49,30 @@ Libraries Used:
 
 The dataset consits of:
 
-train images = 4000 | test images = 1000
+1. train images = 4000
 
-train questions = 38575 | test questions = 9673
+2. test images = 1000
 
-possibles answers = 13
+3. train questions = 38575
 
-training questions that are yes/no = 28407 | testing questions that are yes/no = 7136
+4. test questions = 9673
+
+5. possibles answers = 13
+
+6. training questions that are yes/no = 28407
+
+7. testing questions that are yes/no = 7136
 
 
 Sample Images: 
 
-<img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>
+                  <img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>
 
 
 Sample Questions:
 
-"What shape is blue?"
+1. "What shape is blue?"
 
-"Does the image contain a square?"
+2. "Does the image contain a square?"
 
-"What is the color of the triangle?"
+3. "What is the color of the triangle?"

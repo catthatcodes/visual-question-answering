@@ -57,6 +57,16 @@ possibles answers = 13
 
 training questions that are yes/no = 28407 | testing questions that are yes/no = 7136
 
-Samples Images: 
+
+Sample Images: 
 
 <img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>
+
+
+Sample Questions:
+
+"What shape is blue?"
+
+"Does the image contain a square?"
+
+"What is the color of the triangle?"

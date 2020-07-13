@@ -10,8 +10,6 @@ def build(img_shape, vocab_size, n_ans):
     x1 = Conv2D(16, 3, padding='same')(x1)
     x1 = MaxPooling2D()(x1)
     x1 = Conv2D(32, 3, padding='same')(x1)
-    x1 = MaxPooling2D()(x1)
-    x1 = Flatten()(x1)
     x1 = Dense(32, activation='tanh')(x1)
 
     q_input = Input(shape=(vocab_size,))

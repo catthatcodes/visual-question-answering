@@ -1,2 +1,57 @@
-# visual-question-answering
-Application of Natural Language Processing in Computer Vision. Uses the easy-vqa dataset to train a VQA model that combine image and text features to answer open-ended questions.
+# Visual Question Answering
+Application of Natural Language Processing in Computer Vision. Uses the easy-vqa dataset to train a VQA model that combines image and text features to answer open-ended questions.
+
+
+## Use Case
+
+Question answering (QA) is a computer science discipline within the fields of information retrieval and natural language processing (NLP), which is concerned with building systems that automatically answer questions posed by humans in a natural language. VQA is the application of QA to images, combining visual and language understanding. Given an image, the system should be able answer open-ended questions regarding the image. The model first extracts features from both the entered question and the image and then compares those to result in a cogent answer. The question is generally posed to comprise of three sections: type of question, subject and context. The type refers to ‘what’ and ‘whether’ questions. The image features are compared against the subject and the context to derive an answer. The usability of such a model poses great advancements in forensics, education. Some of the current research is to aid the blind and visually impaired.
+
+
+## Solution
+
+1. Build - Build the image and text model which uses their respective features. Merge both image and question vectors, so the reusltant now contains information derived from both.
+
+2. Setup - Extract the training and testing set for the images and the questions and process them seperately to extarct their seperate features.
+
+3. Train - This model is trained on the easy-vqa dataset.
+
+4. Analyse -  The model is the tested to analyze it's performance.
+  
+
+## Tools and Frameworks Used
+
+Data Set: 
+  1. easy-vqa - Easy Visual Questions Answering dataset
+  
+Model Development:
+  1. TensorFlow – Deep Learning Library
+  
+  2. Keras – Deep Learning Library
+  
+  3. NumPy – Scientific numerical calculations library
+  
+  4. Scikit-learn – Machine learning algorithms tools
+
+Development Environment:
+  1. PyCharm IDE – Python program development environment
+
+  2. Jupyter Notebooks – web application for interactive data science and scientific computing 
+
+Libraries Used:
+  1. numpy
+  
+  2. keras
+
+  3. easy_vqa
+
+
+## easy-vqa Dataset
+
+The dataset consits of:
+train images = 4000 | test images = 1000
+train questions = 38575 | test questions = 9673
+possibles answers = 13
+training questions that are yes/no = 28407 | testing questions that are yes/no = 7136
+
+Samples Images: 
+<img src="https://victorzhou.com/media/vqa-post/examples.png" width ="500" height ="500"/>

@@ -108,7 +108,7 @@ A Convolutional Neural Network(CNN) is used to extract information from the inpu
 
 ## Question Model
 
-   <img src="https://victorzhou.com/media/vqa-post/feedforward.svg" width ="700" height ="250"/>
+   <<img src="https://victorzhou.com/media/vqa-post/feedforward.svg" width ="700" height ="250"/>
 
 1. vectorize every question using Bag of Words approach(BOW).
 
@@ -123,4 +123,23 @@ Using element wise multiplication as available in the Merge layer in keras, the 
 
 2. Softmax to turn output values into probabilities so each answer can be quantified.
 
-# Result
+## Result
+
+      Epoch 1/8
+      loss: 0.8887 - accuracy: 0.6480 - val_loss: 0.7504 - val_accuracy: 0.6838
+      Epoch 2/8
+      loss: 0.7443 - accuracy: 0.6864 - val_loss: 0.7118 - val_accuracy: 0.7095
+      Epoch 3/8
+      loss: 0.6419 - accuracy: 0.7468 - val_loss: 0.5659 - val_accuracy: 0.7780
+      Epoch 4/8
+      loss: 0.5140 - accuracy: 0.7981 - val_loss: 0.4720 - val_accuracy: 0.8138
+      Epoch 5/8
+      loss: 0.4155 - accuracy: 0.8320 - val_loss: 0.3938 - val_accuracy: 0.8392
+      Epoch 6/8
+      loss: 0.3078 - accuracy: 0.8775 - val_loss: 0.3139 - val_accuracy: 0.8762
+      Epoch 7/8
+      loss: 0.1982 - accuracy: 0.9286 - val_loss: 0.2202 - val_accuracy: 0.9212
+      Epoch 8/8
+      loss: 0.1157 - accuracy: 0.9627 - val_loss: 0.1883 - val_accuracy: 0.9378
+      
+      
